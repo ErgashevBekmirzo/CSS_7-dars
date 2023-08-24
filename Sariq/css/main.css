@@ -1,0 +1,56 @@
+body{
+    background-color: orange;
+}
+.opwi{
+    width: 2000px;
+
+}
+.wrap{
+    width: 500px;
+    margin: 100px 0 0 100px;
+    float: left;
+}
+.wrap .torburcak{
+    width: 400px;
+    height: 270px;
+    border: 3px solid black;
+    border-radius: 20px;
+    position: relative;
+    background-color: wheat;
+    box-shadow: 20px 20px 1px rgba(0,0,0,0.6);
+}
+.torbur-1{
+    width: 50%;
+    height: 270px;
+    margin-top: -18.5px;
+    background-color: white;
+    text-align: center;
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 17px;
+    line-height: 270px;
+}
+.torbur-2{
+    width: 50%;
+    height: 270px;
+    margin-top: -18.5px;
+    background-color: wheat;
+    text-align: center;
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 17px;
+    line-height: 235px;
+    position: absolute;
+    top: 18.5px;
+    left: 200px;
+}
+.torbur-3{
+    width: 50%;
+    height: 253px;
+    margin-top: -18.5px;
+    background-color: lightgray;
+    text-align: center;
+    border-bottom-right-radius: 17px;
+    line-height: 205px;
+    position: absolute;
+    top: 35.5px;
+    left: 200px;
+}

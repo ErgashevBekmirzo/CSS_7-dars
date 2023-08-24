@@ -1,0 +1,80 @@
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+.row{
+    width: 100%;
+    display: block;
+}
+.col{
+    width: 30%;
+    display: block;
+    float: left;
+    margin-bottom: 60px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(80,80,80,0.5);
+    -webkit-box-shadow: 0 0 10px rgba(80,80,80,0.5);
+    -moz-box-shadow: 0 0 10px rgba(80,80,80,0.5);
+    -o-box-shadow: 0 0 10px rgba(80,80,80,0.5);
+    -ms-box-shadow: 0 0 10px rgba(80,80,80,0.5);
+    transition: all 0.5s ease-in-out;
+}
+.row .col:nth-child(2){
+    margin: 0 5%;
+}
+.brnc .col:first-child .sana{
+    background-color: indianred;
+}
+.ontornc .col:nth-child(2) .sana{
+    background-color: indianred;
+}
+.sana{
+    padding: 5rem 0;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: #7de29e;
+    color: white;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.text-sana{
+    padding: 2rem 0;
+    text-align: center;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.a:hover{
+    transform: rotateX(45deg);
+}
+.b:hover{
+    transform: scaleY(1.5);
+}
+.c:hover{
+    transform: translateY(100px);
+}
+.d:hover{
+    transform: rotateY(50deg);
+}
+.e:hover{
+    transform: rotateZ(45deg);
+}
+.f:hover{
+    transform: translateX(100px);
+}
+.j:hover{
+    transform: translateX(100px) translateY(100px);
+}
+.h:hover{
+    transform: skew(45deg);
+}
+.i:hover{
+    transform: rotateY(45deg) rotateX(45deg);
+}
+.g:hover{
+    transform: rotateZ(1200deg);
+}
+.k:hover{
+    transform: scaleX(3)  scaleY(3) translate(130px,0px);
+}

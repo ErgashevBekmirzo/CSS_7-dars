@@ -1,0 +1,49 @@
+.wrap{
+    width: 1300px;
+}
+.wrap .torburchak{
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    border: 3px solid black;
+    text-align: center;
+    display: inline-block;
+    margin: 30px;
+    line-height: 150px;
+    border-radius: 35px;
+}
+.wrap .torburchak:nth-child(2){
+    box-shadow: 20px 20px 5px rgba(0,0,0,0.5);
+}
+.wrap .tortburchak:nth-child(3){
+    box-shadow: 30px 30px 5px rgba(0,0,0,0.5);
+}
+.wrap .torburchak:nth-child(4){
+    box-shadow: 30px 30px 30px rgba(0,0,0,0.5);
+}
+.wrapo{
+     width: 1300px;
+}
+.wrapo .torburchak{
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    border: 3px solid black;
+    text-align: center;
+    display: inline-block;
+    margin: 30px;
+    line-height: 150px;
+    border-radius: 35px;
+}
+.wrapo .torburchak:first-child{
+    box-shadow: 30px 30px 5px rgba(0,0,0,0.3);
+}
+.wrapo .torburchak:nth-child(3){
+    box-shadow: 30px 30px 5px rgba(0,0,0,0.5);
+}
+.wrapo .torburchak:nth-child(4){
+    box-shadow: -2px 30px 5px rgba(0,0,0,0.5);
+}
+.wrapo .torburchak:nth-child(4){
+    box-shadow: -10px -10px 30px rgba(0,0,0,0.4);
+}
